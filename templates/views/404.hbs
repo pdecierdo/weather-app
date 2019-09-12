@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/weather.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ header }}</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="banner">{{ header }}</section>
+        <div class="link-container">
+            <p>
+                {{ message }}
+            </p>
+            <a type="button" class="button primary" href="{{ route }}">Go to {{ linkName }}</a>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
