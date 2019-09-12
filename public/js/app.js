@@ -33,3 +33,5 @@ addressInputForm.addEventListener('submit', (e) => {
     e.preventDefault();
     fetchForecast(addressInput.value)
 })
+
+console.log('Everglow')
